@@ -1,0 +1,12 @@
+# Raw dumps contain personal data. NEVER commit them.
+data/raw/*
+data/processed/*
+*.sql.gz
+*.zip
+*.gz
+.env
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+!data/*/.gitkeep
+# data/clean/ (the sanitised dump) is tracked on purpose - keep the repo PRIVATE.
