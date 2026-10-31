@@ -4,3 +4,4 @@ pymysql
 pyarrow
 duckdb
 plotly
+cryptography
